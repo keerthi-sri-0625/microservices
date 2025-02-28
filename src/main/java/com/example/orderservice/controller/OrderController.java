@@ -17,7 +17,7 @@ public class OrderController {
     @GetMapping
     public String getOrder() {
         String userInfo = userServiceClient.getUserInfo();
-        return "Order Service: " + userInfo;
+        return "Order Service are : " + userInfo;
     }
 }
 
